@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crate a New Account </title>
+    <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', sans-serif;    }
+    body{
+        background-color: #f4f4f4;
+    }
+
+    h1{
+            text-align: center;
+            padding: 10px 0;
+            background-color:	#3c5fa7 ;
+            color: white;
+            font-size: 35px;
+            font-weight: 600;
+            width: 100% !important;
+        }
+    .container{
+        text-align: center;
+        width: 70%;
+        margin:0 50px ;
+        margin: auto;
+    }
+    
+    .tittle{
+        margin: 50px 0;
+        font-size: 40px;
+        font-weight: 550;
+    }
+    div{
+        margin-top: 200px;
+    }
+    input{
+        padding: 7px 9px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        transition: .3s;
+        outline: none;
+        color: #302e2e;
+        border-radius: 5px;
+    }
+    div input:nth-child(1):focus{
+        transform: scale(1.01);
+        border-bottom: 1px solid greenyellow ;
+    }
+    div input:nth-child(2):focus{
+        transdiv: scale(1.01);
+        border-bottom: 1px solid greenyellow ;
+    }
+    div input:nth-child(1){
+        margin-right: 20px;
+        width: 45%;
+    }
+    div input:nth-child(2){                   
+        width: 45%;
+    }
+    #next_btn{
+        padding: 5px 20px;
+        background-color: #7098e7;
+        margin-top: 20px;
+        font-size: 17px;
+        color: white;
+        font-weight: 500;
+        border-radius: 2px;
+        cursor: pointer;
+
+    }
+        </style>
+</head>
+<body>
+    <h1>facbook</h1>
+    <div class="container">
+        
+        <div class="tittle">
+            Add your Name
+        </div>
+        <div class="input_section">
+
+            <input type="search" placeholder="First Name" required >
+            <input type="search" placeholder="Last Name" required><br>
+            <a href="../pass/index.html"><input id="next_btn" type="submit" value="Next"></a>
+        </div>
+    </div>
+</body>
+</html>
